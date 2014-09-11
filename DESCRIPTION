@@ -1,0 +1,26 @@
+Package: NGScopyData
+Type: Package
+Version: 0.99.1
+Date: 2014-08-08 11:47:26 EDT
+Title: Subset of BAM files of human tumor and pooled normal sequencing
+        data (Zhao et al. 2014) for the NGScopy package
+Description: Subset of BAM files of human lung tumor and pooled normal
+        samples by targeted panel sequencing. [Zhao et al 2014.
+        Targeted Sequencing in Non-Small Cell Lung Cancer (NSCLC) Using
+        the University of North Carolina (UNC) Sequencing Assay
+        Captures Most Previously Described Genetic Aberrations in
+        NSCLC. In preparation.] Each sample is a 10 percent random
+        subsample drawn from the original sequencing data. The pooled
+        normal sample has been rescaled accroding to the total number
+        of normal samples in the "pool". Here provided is the
+        subsampled data on chr6 (hg19).
+License: GPL (>=2)
+LazyData: yes
+URL:
+        http://www.bioconductor.org/packages/release/data/experiment/html/NGScopyData.html
+Repository: Bioconductor
+biocViews: ExperimentData, DNASeq, TargetedResequencing, Sequencing
+Authors@R: c( person("Xiaobei", "Zhao", email="xiaobei@binf.ku.dk",
+        role=c("aut", "cre", "cph")) )
+Author: Xiaobei Zhao [aut, cre, cph]
+Maintainer: Xiaobei Zhao <xiaobei@binf.ku.dk>
